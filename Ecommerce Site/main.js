@@ -50,18 +50,18 @@ function ready() {
 }
 
 function buyButtonClicked() {
-  const submitButton = document.getElementById("submitButton");
-  const hiddenElement = document.getElementById("hiddenElement");
-  const myForm = document.getElementById("myForm");
+  // const submitButton = document.getElementById("submitButton");
+  // const hiddenElement = document.getElementById("hiddenElement");
+  // const myForm = document.getElementById("myForm");
 
-  submitButton.addEventListener("click", function () {
-    const isFormValid = validateInputs();
+  // submitButton.addEventListener("click", function () {
+  //   const isFormValid = validateInputs();
 
-    if (isFormValid) {
-      hiddenElement.classList.remove("hidden");
-      myForm.style.display = "none";
-    }
-  });
+  //   if (isFormValid) {
+  //     hiddenElement.classList.remove("hidden");
+  //     myForm.style.display = "none";
+  //   }
+  // });
   alert("Your Order has been placed");
   let cartContent = document.getElementsByClassName("cart-content")[0];
   while (cartContent.hasChildNodes()) {
